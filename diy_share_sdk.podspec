@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 
   s.frameworks   = 'CoreTelephony', 'ImageIO', 'SystemConfiguration'
   s.library = 'sqlite3.0', 'c++', 'iconv', 'z'
-  s.vendored_libraries = 'shareSdk/libWeiboSDK/libWeiboSDK.a', 'shareSdk/WeChatSDK_64/libWeChatSDK.a', 'shareSdk/QQSDK_64/TencentOpenAPI.framework'
-
+  s.vendored_libraries = 'shareSdk/libWeiboSDK/libWeiboSDK.a', 'shareSdk/WeChatSDK_64/libWeChatSDK.a'
+  s.vendored_frameworks = 'shareSdk/QQSDK_64/TencentOpenAPI.framework'
 end
