@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "diy_share_sdk"
-  s.version      = “0.0.2”
+  s.version      = "1.0.0"
   s.summary      = "wechat QQ sina"
 
   s.description  = <<-DESC
@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/sunzhe/diy_share_sdk"
 
   s.license          = 'MIT'
-  s.author             = { "ioszhe" => "ioszhe@qq.com" }
+  s.author             = { "sunzhe" => "ioszhe@qq.com" }
 
-  s.source       = { :git => "https://github.com/sunzhe/diy_share_sdk.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/sunzhe/diy_share_sdk.git", :tag => s.version, :submodules => true }
 
   s.platform     = :ios, '6.0'
 
