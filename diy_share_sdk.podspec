@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author             = { "sunzhe" => "ioszhe@qq.com" }
 
-  s.source       = { :git => "https://github.com/sunzhe/diy_share_sdk.git", :tag => s.version, :submodules => true }
+  s.source       = { :git => "https://github.com/sunzhe/diy_share_sdk.git", :tag => s.version.to_s, :submodules => true }
 
   s.platform     = :ios, '6.0'
 
